@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-2 #queue-division {
-    height: 7vh;
+    height: 10vh;
     background-color: #422b4c;
     color: #b3ebb7;
     font-weight: 700;
@@ -59,7 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-2 #queue-division p {
-    padding-top: 2vh;
+    padding-top: 2.7vh;
+    font-size: 30px;
 }
 
 #section-2 #services-division {
