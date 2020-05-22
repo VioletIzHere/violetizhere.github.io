@@ -1,0 +1,45 @@
+
+body {
+    background-color: #f3f3f2
+}
+
+#threading {
+    text-align: center;
+    color: #fc787f;
+}
+
+#waxing {
+    text-align: center;
+    color: #5aa5fb;
+}
+
+#other {
+    text-align: center;
+    color: #12b984;
+}
+
+.square {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #f3f3f2;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.pink {
+    background-color: #fc787f;
+}
+
+.blue {
+    background-color: #5aa5fb;
+}
+
+.green {
+    background-color: #12b984;
+}
+
+.square h2 {
+    font-size: 20px;
+}

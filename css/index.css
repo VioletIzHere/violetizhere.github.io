@@ -1,0 +1,150 @@
+
+/* Styles for index.html file */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-top: 0;
+}
+
+body {
+    /* background-color: black; */
+}
+
+#section-1 {
+    text-align: center;
+    background-image:
+    linear-gradient(to top, rgba(252,49,231,0.7), rgba(245, 246, 252, 0.52)),
+    url("../assets/images/indexbg.jpg");
+    background-position: center;
+    background-position-y: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#section-1 h1 {
+    padding-top: 38vh;
+    color: #e2d9e9;
+}
+#section-1 h1 span {
+    display: block;
+    font-weight: 400;
+    padding-top: calc(38vh);
+    margin-bottom: 10px;
+}
+
+#section-1 #whitearrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 5vh;
+    margin-left: calc(50% - 15px);
+    background-image: url("../assets/images/whitearrow.png");
+    background-size: cover;
+}
+
+#section-2 #blackarrow {
+    width: 30px;
+    height: 30px;
+    margin-top: 5vh;
+    margin-left: calc(50% - 15px);
+    background-image: url("../assets/images/blackarrow.png");
+    background-size: cover;
+}
+
+#section-2 .division h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+#section-2 #queue-division {
+    height: 7vh;
+    background-color: #422b4c;
+    color: #b3ebb7;
+    font-weight: 700;
+    text-align: center;
+}
+
+#section-2 #queue-division p {
+    padding-top: 2vh;
+}
+
+#section-2 #services-division {
+    height: 30vh;
+    background-color: #f9887d;
+    color: #412351;
+    text-align: center;
+}
+
+#section-2 #services-division h1 {
+    padding-top: 12vh;
+}
+
+#section-2 #appointment-division {
+    height: 30vh;
+    background-color: #3256f5;
+    color: #e7fdbd;
+    text-align: center;
+}
+
+#section-2 #appointment-division h1 {
+    padding-top: 10vh;
+}
+
+#section-2 #appointment-division h1 span {
+    display: block;
+}
+
+#section-2 #hours-division {
+    height: 33vh;
+    background-color: #82f19e;
+    color: #2e2450;
+    text-align: center;
+}
+
+#section-2 #hours-division h1 {
+    padding-top: 12vh;
+}
+
+#section-2 #hours-division p {
+    display: block;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+#section-3 {
+    background-color: #252d2a;
+}
+
+#section-3 .division {
+    color: #f8f8f8;
+    text-align: center;
+    padding-top: 3vh;
+}
+
+#section-3 .social-link {
+    width: 100%;
+    padding: 3px;
+    text-align: center;
+}
+
+#section-3 .social-link h3 {
+    padding-top: 2vh;
+}
+
+#section-3 #facebook {
+    background-color: #1835aa;
+    color: #fafafb;
+}
+
+#section-3 #twitter {
+    background-color: #2da0f8;
+    color: #fcfcfc;
+}
+
+#section-3 #google {
+    background-color: #d12d3a;
+    color: #f9f9fa;
+}
+
+#section-3 #yelp {
+    background-color: #e56f5a;
+    color: #F6F6F6;
+}
