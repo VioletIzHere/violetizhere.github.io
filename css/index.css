@@ -15,12 +15,15 @@ h1, h2, h3, h4, h5, h6 {
     background-position-y: 0px;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 #section-1 h1 {
-    padding-top: 38vh;
+    padding-top: 35vh;
     color: #e2d9e9;
+    font-size: 4.5vh;
 }
+
 #section-1 h1 span {
     display: block;
     font-weight: 400;
@@ -38,11 +41,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-2 #blackarrow {
-    width: 30px;
-    height: 30px;
-    margin-top: 5vh;
+    width: 20px;
+    height: 20px;
+    margin-top: 2vh;
     margin-left: calc(50% - 15px);
-    background-image: url("../assets/images/blackarrow.png");
+    background-image: url("../assets/images/whitearrow.png");
     background-size: cover;
 }
 
@@ -50,7 +53,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
-#section-2 #queue-division {
+#section-2 .division {
+    height: calc(100vh / 4);
+    font-size: 2vh;
+}
+
+#queue-division {
     height: 10vh;
     background-color: #422b4c;
     color: #b3ebb7;
@@ -58,31 +66,39 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-#section-2 #queue-division p {
+#queue-division p {
     padding-top: 2.7vh;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 #section-2 #services-division {
-    height: 30vh;
-    background-color: #f9887d;
-    color: #412351;
+    background-color: #ef1a9a;
+    color: #f4f3f3;
     text-align: center;
 }
 
 #section-2 #services-division h1 {
-    padding-top: 12vh;
+    padding-top: 10vh;
+}
+
+#section-2 #photos-division {
+    text-align: center;
+    background-color: #4a27e7;
+    color: #f2f3f2;
+}
+
+#section-2 #photos-division h1 {
+    padding-top: 10vh;
 }
 
 #section-2 #appointment-division {
-    height: 30vh;
-    background-color: #3256f5;
-    color: #e7fdbd;
+    background-color: #49116f;
+    color: #f9f9f9;
     text-align: center;
 }
 
 #section-2 #appointment-division h1 {
-    padding-top: 10vh;
+    padding-top: 8vh;
 }
 
 #section-2 #appointment-division h1 span {
@@ -90,40 +106,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #section-2 #hours-division {
-    height: 33vh;
-    background-color: #82f19e;
-    color: #2e2450;
+    background-color: #2a2344;
+    color: #fcfcfc;
     text-align: center;
 }
 
 #section-2 #hours-division h1 {
-    padding-top: 12vh;
+    padding-top: 7vh;
 }
 
 #section-2 #hours-division p {
     display: block;
     margin-top: 15px;
-    font-size: 15px;
+    font-size: 2vh;
 }
 
 #section-3 {
     background-color: #252d2a;
+    height: 100vh;
 }
 
 #section-3 .division {
     color: #f8f8f8;
     text-align: center;
     padding-top: 3vh;
+    font-size: 2.3vh;
 }
 
 #section-3 .social-link {
-    width: 100%;
+    width: 95%;
     padding: 3px;
     text-align: center;
+    margin-left: 2%;
 }
 
 #section-3 .social-link h3 {
     padding-top: 2vh;
+    font-size: 2vh;
 }
 
 #section-3 #facebook {
